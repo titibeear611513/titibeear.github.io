@@ -1,3 +1,68 @@
 p{
-  color:green;
+    font-size: 60px;
+}
+p b:first-child{
+    color:blue;
+}
+::marker{
+    color: blueviolet;
+}
+::selection{
+    color:yellow;
+    background: purple;
+}
+p::first-letter{
+    color: aqua;
+    font-size: 200%;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:blue;
+}
+img{
+    height: 230px;
+    width: 230px;
+    height: auto;
+    border-radius: 50%;
+  }
+body{
+    background-image: url(https://cestmarie.com/wp-content/uploads/2019/01/Screenshot-3.png);
+}
+.line1{
+    background: rgb(0,0,255);
+    color: orange;
+    opacity:0.25;
+}
+.line2{
+    background: rgb(0,0,255);
+    color: orange;
+    opacity:0.5;
+}
+.line3{
+    background: rgb(0,0,255);
+    color: orange;
+    opacity:0.75;
+}
+.line4{
+    background: rgb(0,0,255);
+    color: orange;
+    opacity:1;
+}
+
+.ability1:hover{
+    width:100px;
+}
+.ability2:hover{
+    width:100px;
+}
+.ability3:hover{
+    width:100px;
 }
